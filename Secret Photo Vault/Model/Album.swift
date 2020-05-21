@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 struct Album {
     var thumImage:UIImage
     var name:String
