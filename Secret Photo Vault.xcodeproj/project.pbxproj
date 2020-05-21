@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D31B1F0247150DF0043AF44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31B1EF247150DF0043AF44 /* AppDelegate.swift */; };
+		4D31B1F2247150DF0043AF44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31B1F1247150DF0043AF44 /* SceneDelegate.swift */; };
+		4D31B1F4247150DF0043AF44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31B1F3247150DF0043AF44 /* ViewController.swift */; };
+		4D31B1F9247150E50043AF44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D31B1F8247150E50043AF44 /* Assets.xcassets */; };
+		4D31B1FC247150E50043AF44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D31B1FA247150E50043AF44 /* LaunchScreen.storyboard */; };
+		4D31B2092471530A0043AF44 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31B2082471530A0043AF44 /* MainTabBar.swift */; };
+		4D31B20B2471531F0043AF44 /* MainTabVC_initView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31B20A2471531F0043AF44 /* MainTabVC_initView.swift */; };
+		4D31B20D2471532A0043AF44 /* MainTabVC_initAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31B20C2471532A0043AF44 /* MainTabVC_initAction.swift */; };
+		4D31B20F24715D100043AF44 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31B20E24715D100043AF44 /* Constant.swift */; };
+		4D31B21224715D4C0043AF44 /* UiColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31B21124715D4C0043AF44 /* UiColorExtension.swift */; };
+		4D7D250A2471A50C00E0FCD1 /* AlbumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D25092471A50C00E0FCD1 /* AlbumVC.swift */; };
+		4D7D250C2471A51900E0FCD1 /* AlbumVC_initView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D250B2471A51900E0FCD1 /* AlbumVC_initView.swift */; };
+		4D7D250E2471A52600E0FCD1 /* AlbumVC_initAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D250D2471A52600E0FCD1 /* AlbumVC_initAction.swift */; };
+		4D7D25102471A53600E0FCD1 /* ContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D250F2471A53600E0FCD1 /* ContactVC.swift */; };
+		4D7D25122471A54D00E0FCD1 /* BrowserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D25112471A54D00E0FCD1 /* BrowserVC.swift */; };
+		4D7D25142471A55D00E0FCD1 /* PasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D25132471A55D00E0FCD1 /* PasswordVC.swift */; };
+		4D7D25162471A57000E0FCD1 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D25152471A57000E0FCD1 /* SettingsVC.swift */; };
+		4D7D25182471A58D00E0FCD1 /* SettingsVC_initView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D25172471A58D00E0FCD1 /* SettingsVC_initView.swift */; };
+		4D7D251A2471A5AF00E0FCD1 /* SettingsVC_initAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D25192471A5AF00E0FCD1 /* SettingsVC_initAction.swift */; };
+		4D7D251C2471A5C500E0FCD1 /* PasswordVC_initView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D251B2471A5C500E0FCD1 /* PasswordVC_initView.swift */; };
+		4D7D251E2471A5EB00E0FCD1 /* PasswordVC_intAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D251D2471A5EB00E0FCD1 /* PasswordVC_intAction.swift */; };
+		4D7D25202471A60200E0FCD1 /* BrowserVC_initView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D251F2471A60200E0FCD1 /* BrowserVC_initView.swift */; };
+		4D7D25222471A60B00E0FCD1 /* BrowserVC_initAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D25212471A60B00E0FCD1 /* BrowserVC_initAction.swift */; };
+		4D7D25242471A61800E0FCD1 /* ContactVC_initView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D25232471A61800E0FCD1 /* ContactVC_initView.swift */; };
+		4D7D25262471A62400E0FCD1 /* ContactVC_initAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D25252471A62400E0FCD1 /* ContactVC_initAction.swift */; };
+		4D92D7552471B4CF00E82BCE /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D92D7532471B4CF00E82BCE /* AlbumCell.swift */; };
+		4D92D7562471B4CF00E82BCE /* AlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D92D7542471B4CF00E82BCE /* AlbumCell.xib */; };
+		4D92D7582471B63900E82BCE /* AlbumVCCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D92D7572471B63900E82BCE /* AlbumVCCollectionView.swift */; };
+		4D92D75A2471B86D00E82BCE /* UiVIew+Extensiton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D92D7592471B86D00E82BCE /* UiVIew+Extensiton.swift */; };
+		4D92D75C2471BDEB00E82BCE /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D92D75B2471BDEB00E82BCE /* Album.swift */; };
+		4D92D75E2471C27B00E82BCE /* UiCollectionCell+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D92D75D2471C27B00E82BCE /* UiCollectionCell+Extention.swift */; };
+		4D92D7612471C62B00E82BCE /* SingleAlbumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D92D7602471C62B00E82BCE /* SingleAlbumVC.swift */; };
+		4D92D7632471C63600E82BCE /* SingleAlbumVC_initView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D92D7622471C63600E82BCE /* SingleAlbumVC_initView.swift */; };
+		4D92D7652471C64400E82BCE /* SingleAlbumVC_initAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D92D7642471C64400E82BCE /* SingleAlbumVC_initAction.swift */; };
+		4D92D7672471C67E00E82BCE /* SingelAlbum.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D92D7662471C67E00E82BCE /* SingelAlbum.storyboard */; };
+		4D92D7692471C7E700E82BCE /* SingleAlbumVC_inittableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D92D7682471C7E700E82BCE /* SingleAlbumVC_inittableView.swift */; };
+		4D92D76F2471C83700E82BCE /* SingleAlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D92D76D2471C83700E82BCE /* SingleAlbumCell.swift */; };
+		4D92D7702471C83700E82BCE /* SingleAlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D92D76E2471C83700E82BCE /* SingleAlbumCell.xib */; };
+		4DBA30122471A7D100F9D6D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBA30112471A7D100F9D6D7 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D31B1EC247150DF0043AF44 /* Secret Photo Vault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secret Photo Vault.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D31B1EF247150DF0043AF44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D31B1F1247150DF0043AF44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4D31B1F3247150DF0043AF44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D31B1F8247150E50043AF44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D31B1FB247150E50043AF44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D31B1FD247150E50043AF44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D31B2082471530A0043AF44 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		4D31B20A2471531F0043AF44 /* MainTabVC_initView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabVC_initView.swift; sourceTree = "<group>"; };
+		4D31B20C2471532A0043AF44 /* MainTabVC_initAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabVC_initAction.swift; sourceTree = "<group>"; };
+		4D31B20E24715D100043AF44 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		4D31B21124715D4C0043AF44 /* UiColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiColorExtension.swift; sourceTree = "<group>"; };
+		4D7D25092471A50C00E0FCD1 /* AlbumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumVC.swift; sourceTree = "<group>"; };
+		4D7D250B2471A51900E0FCD1 /* AlbumVC_initView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumVC_initView.swift; sourceTree = "<group>"; };
+		4D7D250D2471A52600E0FCD1 /* AlbumVC_initAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumVC_initAction.swift; sourceTree = "<group>"; };
+		4D7D250F2471A53600E0FCD1 /* ContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVC.swift; sourceTree = "<group>"; };
+		4D7D25112471A54D00E0FCD1 /* BrowserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserVC.swift; sourceTree = "<group>"; };
+		4D7D25132471A55D00E0FCD1 /* PasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordVC.swift; sourceTree = "<group>"; };
+		4D7D25152471A57000E0FCD1 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		4D7D25172471A58D00E0FCD1 /* SettingsVC_initView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC_initView.swift; sourceTree = "<group>"; };
+		4D7D25192471A5AF00E0FCD1 /* SettingsVC_initAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC_initAction.swift; sourceTree = "<group>"; };
+		4D7D251B2471A5C500E0FCD1 /* PasswordVC_initView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordVC_initView.swift; sourceTree = "<group>"; };
+		4D7D251D2471A5EB00E0FCD1 /* PasswordVC_intAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordVC_intAction.swift; sourceTree = "<group>"; };
+		4D7D251F2471A60200E0FCD1 /* BrowserVC_initView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserVC_initView.swift; sourceTree = "<group>"; };
+		4D7D25212471A60B00E0FCD1 /* BrowserVC_initAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserVC_initAction.swift; sourceTree = "<group>"; };
+		4D7D25232471A61800E0FCD1 /* ContactVC_initView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVC_initView.swift; sourceTree = "<group>"; };
+		4D7D25252471A62400E0FCD1 /* ContactVC_initAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactVC_initAction.swift; sourceTree = "<group>"; };
+		4D92D7532471B4CF00E82BCE /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		4D92D7542471B4CF00E82BCE /* AlbumCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumCell.xib; sourceTree = "<group>"; };
+		4D92D7572471B63900E82BCE /* AlbumVCCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumVCCollectionView.swift; sourceTree = "<group>"; };
+		4D92D7592471B86D00E82BCE /* UiVIew+Extensiton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiVIew+Extensiton.swift"; sourceTree = "<group>"; };
+		4D92D75B2471BDEB00E82BCE /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		4D92D75D2471C27B00E82BCE /* UiCollectionCell+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UiCollectionCell+Extention.swift"; sourceTree = "<group>"; };
+		4D92D7602471C62B00E82BCE /* SingleAlbumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAlbumVC.swift; sourceTree = "<group>"; };
+		4D92D7622471C63600E82BCE /* SingleAlbumVC_initView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAlbumVC_initView.swift; sourceTree = "<group>"; };
+		4D92D7642471C64400E82BCE /* SingleAlbumVC_initAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAlbumVC_initAction.swift; sourceTree = "<group>"; };
+		4D92D7662471C67E00E82BCE /* SingelAlbum.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingelAlbum.storyboard; sourceTree = "<group>"; };
+		4D92D7682471C7E700E82BCE /* SingleAlbumVC_inittableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAlbumVC_inittableView.swift; sourceTree = "<group>"; };
+		4D92D76D2471C83700E82BCE /* SingleAlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAlbumCell.swift; sourceTree = "<group>"; };
+		4D92D76E2471C83700E82BCE /* SingleAlbumCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleAlbumCell.xib; sourceTree = "<group>"; };
+		4DBA30112471A7D100F9D6D7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D31B1E9247150DF0043AF44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D31B1E3247150DF0043AF44 = {
+			isa = PBXGroup;
+			children = (
+				4D31B1EE247150DF0043AF44 /* Secret Photo Vault */,
+				4D31B1ED247150DF0043AF44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D31B1ED247150DF0043AF44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D31B1EC247150DF0043AF44 /* Secret Photo Vault.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D31B1EE247150DF0043AF44 /* Secret Photo Vault */ = {
+			isa = PBXGroup;
+			children = (
+				4D31B21024715D170043AF44 /* Constant */,
+				4D31B206247151F50043AF44 /* CustomThings */,
+				4D31B205247151E80043AF44 /* Model */,
+				4D31B204247151E10043AF44 /* Controller  */,
+				4D31B203247151D70043AF44 /* Extension */,
+				4D31B1EF247150DF0043AF44 /* AppDelegate.swift */,
+				4D31B1F1247150DF0043AF44 /* SceneDelegate.swift */,
+				4D31B1F3247150DF0043AF44 /* ViewController.swift */,
+				4D31B1F8247150E50043AF44 /* Assets.xcassets */,
+				4D31B1FA247150E50043AF44 /* LaunchScreen.storyboard */,
+				4D31B1FD247150E50043AF44 /* Info.plist */,
+				4DBA30112471A7D100F9D6D7 /* Main.storyboard */,
+			);
+			path = "Secret Photo Vault";
+			sourceTree = "<group>";
+		};
+		4D31B203247151D70043AF44 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4D31B21124715D4C0043AF44 /* UiColorExtension.swift */,
+				4D92D7592471B86D00E82BCE /* UiVIew+Extensiton.swift */,
+				4D92D75D2471C27B00E82BCE /* UiCollectionCell+Extention.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4D31B204247151E10043AF44 /* Controller  */ = {
+			isa = PBXGroup;
+			children = (
+				4D92D75F2471C5FE00E82BCE /* SingleAlbum */,
+				4D7D25082471A4E200E0FCD1 /* Settings */,
+				4D7D25072471A4D500E0FCD1 /* Password */,
+				4D7D25062471A4C200E0FCD1 /* Brower */,
+				4D7D25052471A4A700E0FCD1 /* Contact */,
+				4D7D25042471A4A100E0FCD1 /* Album */,
+				4D31B207247152780043AF44 /* MainTabBar */,
+			);
+			path = "Controller ";
+			sourceTree = "<group>";
+		};
+		4D31B205247151E80043AF44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D92D75B2471BDEB00E82BCE /* Album.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D31B206247151F50043AF44 /* CustomThings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomThings;
+			sourceTree = "<group>";
+		};
+		4D31B207247152780043AF44 /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				4D31B2082471530A0043AF44 /* MainTabBar.swift */,
+				4D31B20A2471531F0043AF44 /* MainTabVC_initView.swift */,
+				4D31B20C2471532A0043AF44 /* MainTabVC_initAction.swift */,
+			);
+			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		4D31B21024715D170043AF44 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				4D31B20E24715D100043AF44 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		4D7D25042471A4A100E0FCD1 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				4D92D7522471B4AB00E82BCE /* View */,
+				4D7D25092471A50C00E0FCD1 /* AlbumVC.swift */,
+				4D7D250B2471A51900E0FCD1 /* AlbumVC_initView.swift */,
+				4D7D250D2471A52600E0FCD1 /* AlbumVC_initAction.swift */,
+				4D92D7572471B63900E82BCE /* AlbumVCCollectionView.swift */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		4D7D25052471A4A700E0FCD1 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D250F2471A53600E0FCD1 /* ContactVC.swift */,
+				4D7D25232471A61800E0FCD1 /* ContactVC_initView.swift */,
+				4D7D25252471A62400E0FCD1 /* ContactVC_initAction.swift */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		4D7D25062471A4C200E0FCD1 /* Brower */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D25112471A54D00E0FCD1 /* BrowserVC.swift */,
+				4D7D251F2471A60200E0FCD1 /* BrowserVC_initView.swift */,
+				4D7D25212471A60B00E0FCD1 /* BrowserVC_initAction.swift */,
+			);
+			path = Brower;
+			sourceTree = "<group>";
+		};
+		4D7D25072471A4D500E0FCD1 /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D25132471A55D00E0FCD1 /* PasswordVC.swift */,
+				4D7D251B2471A5C500E0FCD1 /* PasswordVC_initView.swift */,
+				4D7D251D2471A5EB00E0FCD1 /* PasswordVC_intAction.swift */,
+			);
+			path = Password;
+			sourceTree = "<group>";
+		};
+		4D7D25082471A4E200E0FCD1 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4D7D25152471A57000E0FCD1 /* SettingsVC.swift */,
+				4D7D25172471A58D00E0FCD1 /* SettingsVC_initView.swift */,
+				4D7D25192471A5AF00E0FCD1 /* SettingsVC_initAction.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4D92D7522471B4AB00E82BCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D92D7532471B4CF00E82BCE /* AlbumCell.swift */,
+				4D92D7542471B4CF00E82BCE /* AlbumCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D92D75F2471C5FE00E82BCE /* SingleAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				4D92D76A2471C7F600E82BCE /* View */,
+				4D92D7602471C62B00E82BCE /* SingleAlbumVC.swift */,
+				4D92D7622471C63600E82BCE /* SingleAlbumVC_initView.swift */,
+				4D92D7642471C64400E82BCE /* SingleAlbumVC_initAction.swift */,
+				4D92D7662471C67E00E82BCE /* SingelAlbum.storyboard */,
+				4D92D7682471C7E700E82BCE /* SingleAlbumVC_inittableView.swift */,
+			);
+			path = SingleAlbum;
+			sourceTree = "<group>";
+		};
+		4D92D76A2471C7F600E82BCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D92D76D2471C83700E82BCE /* SingleAlbumCell.swift */,
+				4D92D76E2471C83700E82BCE /* SingleAlbumCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D31B1EB247150DF0043AF44 /* Secret Photo Vault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D31B200247150E50043AF44 /* Build configuration list for PBXNativeTarget "Secret Photo Vault" */;
+			buildPhases = (
+				4D31B1E8247150DF0043AF44 /* Sources */,
+				4D31B1E9247150DF0043AF44 /* Frameworks */,
+				4D31B1EA247150DF0043AF44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Secret Photo Vault";
+			productName = "Secret Photo Vault";
+			productReference = 4D31B1EC247150DF0043AF44 /* Secret Photo Vault.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D31B1E4247150DF0043AF44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Ekram;
+				TargetAttributes = {
+					4D31B1EB247150DF0043AF44 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4D31B1E7247150DF0043AF44 /* Build configuration list for PBXProject "Secret Photo Vault" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D31B1E3247150DF0043AF44;
+			productRefGroup = 4D31B1ED247150DF0043AF44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D31B1EB247150DF0043AF44 /* Secret Photo Vault */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D31B1EA247150DF0043AF44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBA30122471A7D100F9D6D7 /* Main.storyboard in Resources */,
+				4D31B1FC247150E50043AF44 /* LaunchScreen.storyboard in Resources */,
+				4D92D7672471C67E00E82BCE /* SingelAlbum.storyboard in Resources */,
+				4D31B1F9247150E50043AF44 /* Assets.xcassets in Resources */,
+				4D92D7562471B4CF00E82BCE /* AlbumCell.xib in Resources */,
+				4D92D7702471C83700E82BCE /* SingleAlbumCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D31B1E8247150DF0043AF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D31B20F24715D100043AF44 /* Constant.swift in Sources */,
+				4D7D250C2471A51900E0FCD1 /* AlbumVC_initView.swift in Sources */,
+				4D7D25202471A60200E0FCD1 /* BrowserVC_initView.swift in Sources */,
+				4D7D251E2471A5EB00E0FCD1 /* PasswordVC_intAction.swift in Sources */,
+				4D92D75E2471C27B00E82BCE /* UiCollectionCell+Extention.swift in Sources */,
+				4D92D7632471C63600E82BCE /* SingleAlbumVC_initView.swift in Sources */,
+				4D7D251A2471A5AF00E0FCD1 /* SettingsVC_initAction.swift in Sources */,
+				4D31B20B2471531F0043AF44 /* MainTabVC_initView.swift in Sources */,
+				4D7D25222471A60B00E0FCD1 /* BrowserVC_initAction.swift in Sources */,
+				4D7D25102471A53600E0FCD1 /* ContactVC.swift in Sources */,
+				4D7D25242471A61800E0FCD1 /* ContactVC_initView.swift in Sources */,
+				4D31B20D2471532A0043AF44 /* MainTabVC_initAction.swift in Sources */,
+				4D7D251C2471A5C500E0FCD1 /* PasswordVC_initView.swift in Sources */,
+				4D92D7552471B4CF00E82BCE /* AlbumCell.swift in Sources */,
+				4D7D25262471A62400E0FCD1 /* ContactVC_initAction.swift in Sources */,
+				4D31B21224715D4C0043AF44 /* UiColorExtension.swift in Sources */,
+				4D7D25122471A54D00E0FCD1 /* BrowserVC.swift in Sources */,
+				4D92D75A2471B86D00E82BCE /* UiVIew+Extensiton.swift in Sources */,
+				4D92D7582471B63900E82BCE /* AlbumVCCollectionView.swift in Sources */,
+				4D31B2092471530A0043AF44 /* MainTabBar.swift in Sources */,
+				4D92D76F2471C83700E82BCE /* SingleAlbumCell.swift in Sources */,
+				4D31B1F4247150DF0043AF44 /* ViewController.swift in Sources */,
+				4D7D250A2471A50C00E0FCD1 /* AlbumVC.swift in Sources */,
+				4D7D250E2471A52600E0FCD1 /* AlbumVC_initAction.swift in Sources */,
+				4D7D25142471A55D00E0FCD1 /* PasswordVC.swift in Sources */,
+				4D7D25182471A58D00E0FCD1 /* SettingsVC_initView.swift in Sources */,
+				4D92D75C2471BDEB00E82BCE /* Album.swift in Sources */,
+				4D92D7692471C7E700E82BCE /* SingleAlbumVC_inittableView.swift in Sources */,
+				4D92D7612471C62B00E82BCE /* SingleAlbumVC.swift in Sources */,
+				4D31B1F0247150DF0043AF44 /* AppDelegate.swift in Sources */,
+				4D31B1F2247150DF0043AF44 /* SceneDelegate.swift in Sources */,
+				4D92D7652471C64400E82BCE /* SingleAlbumVC_initAction.swift in Sources */,
+				4D7D25162471A57000E0FCD1 /* SettingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D31B1FA247150E50043AF44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D31B1FB247150E50043AF44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D31B1FE247150E50043AF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D31B1FF247150E50043AF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D31B201247150E50043AF44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54AHL5B4LL;
+				INFOPLIST_FILE = "Secret Photo Vault/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coreapps.sav.Secret-Photo-Vault";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D31B202247150E50043AF44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54AHL5B4LL;
+				INFOPLIST_FILE = "Secret Photo Vault/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coreapps.sav.Secret-Photo-Vault";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D31B1E7247150DF0043AF44 /* Build configuration list for PBXProject "Secret Photo Vault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D31B1FE247150E50043AF44 /* Debug */,
+				4D31B1FF247150E50043AF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D31B200247150E50043AF44 /* Build configuration list for PBXNativeTarget "Secret Photo Vault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D31B201247150E50043AF44 /* Debug */,
+				4D31B202247150E50043AF44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D31B1E4247150DF0043AF44 /* Project object */;
+}

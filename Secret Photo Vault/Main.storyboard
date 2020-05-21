@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PaV-nP-nxa">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="rW6-0H-x1O">
+            <objects>
+                <viewController storyboardIdentifier="ContactVC" id="ZMi-UF-V4H" customClass="ContactVC" customModule="Secret_Photo_Vault" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8HC-JT-7NF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Aot-yQ-dvF"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="D9B-cB-Hlf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n87-Af-avj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-720.28985507246387" y="557.8125"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="mM2-BG-ZXd">
+            <objects>
+                <viewController storyboardIdentifier="BrowserVC" id="0z1-Ra-Ru4" customClass="BrowserVC" customModule="Secret_Photo_Vault" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7c3-rB-bH6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="On3-Nb-FkB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Dvc-9h-BV0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8mo-5R-4vJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="557.8125"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="1oK-IT-lb6">
+            <objects>
+                <viewController storyboardIdentifier="PasswordVC" id="vre-Rl-6KS" customClass="PasswordVC" customModule="Secret_Photo_Vault" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xXu-FU-gVt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="mHg-no-fMC"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="r9A-KG-Khk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ehv-zY-uUB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="768.11594202898561" y="557.8125"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="pOr-Es-FQu">
+            <objects>
+                <viewController storyboardIdentifier="SettingsVC" id="GF2-yq-TMF" customClass="SettingsVC" customModule="Secret_Photo_Vault" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pkx-7r-98l">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="kHP-z9-L1I"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="bzn-WM-QVC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mR8-NB-Edc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1515.9420289855075" y="573.88392857142856"/>
+        </scene>
+        <!--Albums-->
+        <scene sceneID="Hc2-d5-KF6">
+            <objects>
+                <viewController storyboardIdentifier="AlbumVC" id="z95-vu-dKm" customClass="AlbumVC" customModule="Secret_Photo_Vault" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="42z-gU-7ga">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ihg-El-rBq">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="mRX-ta-wIK">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="GJo-da-zor">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="joF-51-Lgz">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" name="AppWhite"/>
+                        <constraints>
+                            <constraint firstItem="ihg-El-rBq" firstAttribute="leading" secondItem="7jW-sH-c0i" secondAttribute="leading" id="0OQ-j3-WC8"/>
+                            <constraint firstItem="ihg-El-rBq" firstAttribute="trailing" secondItem="7jW-sH-c0i" secondAttribute="trailing" id="EXQ-Vk-mKe"/>
+                            <constraint firstItem="ihg-El-rBq" firstAttribute="top" secondItem="7jW-sH-c0i" secondAttribute="top" id="KrH-qn-DFR"/>
+                            <constraint firstItem="ihg-El-rBq" firstAttribute="bottom" secondItem="7jW-sH-c0i" secondAttribute="bottom" id="t0g-St-aSo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7jW-sH-c0i"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Albums" id="Lcd-g0-Yfz"/>
+                    <connections>
+                        <outlet property="albumCollectionView" destination="ihg-El-rBq" id="yxt-KZ-Uvk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d8A-q9-2r4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1484.057971014493" y="1312.5"/>
+        </scene>
+        <!--Main TabVC-->
+        <scene sceneID="XxV-gS-eZt">
+            <objects>
+                <tabBarController storyboardIdentifier="MainTabVC" id="PaV-nP-nxa" customClass="MainTabVC" customModule="Secret_Photo_Vault" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LL2-VW-ycq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" name="Primary"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Sq8-Ee-qJL" kind="relationship" relationship="viewControllers" id="LCY-Vn-Hv4"/>
+                        <segue destination="ZMi-UF-V4H" kind="relationship" relationship="viewControllers" id="lCE-QA-S42"/>
+                        <segue destination="0z1-Ra-Ru4" kind="relationship" relationship="viewControllers" id="ifN-W3-wYh"/>
+                        <segue destination="vre-Rl-6KS" kind="relationship" relationship="viewControllers" id="cMD-A0-w9h"/>
+                        <segue destination="GF2-yq-TMF" kind="relationship" relationship="viewControllers" id="ZXW-Mg-oF2"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rt8-yh-xIA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-551" y="-230"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5FQ-dN-Bhd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Sq8-Ee-qJL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" id="tFG-dd-g14"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="lBH-XG-05A">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="z95-vu-dKm" kind="relationship" relationship="rootViewController" id="PaH-Sc-umi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SMT-7g-tnc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1483" y="574"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AppWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Primary">
+            <color red="0.96899998188018799" green="0.41999998688697815" blue="0.54100000858306885" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+    <color key="tintColor" name="Primary"/>
+</document>
