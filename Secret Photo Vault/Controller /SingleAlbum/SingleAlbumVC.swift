@@ -11,10 +11,18 @@ import UIKit
 class SingleAlbumVC: UIViewController {
 
     @IBOutlet weak var singelAlbumCollectinView: UICollectionView!
+    
+    var album:Album? {
+        didSet {
+            if let album = album {
+               // self.singelAlbumCollectinView.reloadData()
+            }
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initView()
-
     }
     
 }

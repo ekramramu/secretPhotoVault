@@ -10,6 +10,7 @@ import UIKit
 
 class SingleAlbumCell: UICollectionViewCell {
 
+    @IBOutlet weak var singleImageThum: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

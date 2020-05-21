@@ -10,7 +10,12 @@ import UIKit
 
 
 struct Album {
-    var thumImage:UIImage
+    var thumbImage:UIImage
+    var images:[SingleImage]
     var name:String
     var numberOfImage:Int
+}
+
+struct SingleImage {
+    var image:UIImage
 }

@@ -17,6 +17,10 @@
 		4D31B20D2471532A0043AF44 /* MainTabVC_initAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31B20C2471532A0043AF44 /* MainTabVC_initAction.swift */; };
 		4D31B20F24715D100043AF44 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31B20E24715D100043AF44 /* Constant.swift */; };
 		4D31B21224715D4C0043AF44 /* UiColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31B21124715D4C0043AF44 /* UiColorExtension.swift */; };
+		4D6897882476A08800EB7F96 /* SingleImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6897872476A08800EB7F96 /* SingleImageVC.swift */; };
+		4D68978A2476A0A200EB7F96 /* SingleImageVC_initView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6897892476A0A200EB7F96 /* SingleImageVC_initView.swift */; };
+		4D68978C2476A0BF00EB7F96 /* SingleImageVC_initAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68978B2476A0BF00EB7F96 /* SingleImageVC_initAction.swift */; };
+		4D68978E2476A19600EB7F96 /* SingleStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D68978D2476A19600EB7F96 /* SingleStoryBoard.storyboard */; };
 		4D7D250A2471A50C00E0FCD1 /* AlbumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D25092471A50C00E0FCD1 /* AlbumVC.swift */; };
 		4D7D250C2471A51900E0FCD1 /* AlbumVC_initView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D250B2471A51900E0FCD1 /* AlbumVC_initView.swift */; };
 		4D7D250E2471A52600E0FCD1 /* AlbumVC_initAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D250D2471A52600E0FCD1 /* AlbumVC_initAction.swift */; };
@@ -61,6 +65,10 @@
 		4D31B20C2471532A0043AF44 /* MainTabVC_initAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabVC_initAction.swift; sourceTree = "<group>"; };
 		4D31B20E24715D100043AF44 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		4D31B21124715D4C0043AF44 /* UiColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiColorExtension.swift; sourceTree = "<group>"; };
+		4D6897872476A08800EB7F96 /* SingleImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageVC.swift; sourceTree = "<group>"; };
+		4D6897892476A0A200EB7F96 /* SingleImageVC_initView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageVC_initView.swift; sourceTree = "<group>"; };
+		4D68978B2476A0BF00EB7F96 /* SingleImageVC_initAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageVC_initAction.swift; sourceTree = "<group>"; };
+		4D68978D2476A19600EB7F96 /* SingleStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingleStoryBoard.storyboard; sourceTree = "<group>"; };
 		4D7D25092471A50C00E0FCD1 /* AlbumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumVC.swift; sourceTree = "<group>"; };
 		4D7D250B2471A51900E0FCD1 /* AlbumVC_initView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumVC_initView.swift; sourceTree = "<group>"; };
 		4D7D250D2471A52600E0FCD1 /* AlbumVC_initAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumVC_initAction.swift; sourceTree = "<group>"; };
@@ -151,6 +159,7 @@
 		4D31B204247151E10043AF44 /* Controller  */ = {
 			isa = PBXGroup;
 			children = (
+				4D6897862476A03A00EB7F96 /* SingleImage */,
 				4D92D75F2471C5FE00E82BCE /* SingleAlbum */,
 				4D7D25082471A4E200E0FCD1 /* Settings */,
 				4D7D25072471A4D500E0FCD1 /* Password */,
@@ -193,6 +202,17 @@
 				4D31B20E24715D100043AF44 /* Constant.swift */,
 			);
 			path = Constant;
+			sourceTree = "<group>";
+		};
+		4D6897862476A03A00EB7F96 /* SingleImage */ = {
+			isa = PBXGroup;
+			children = (
+				4D6897872476A08800EB7F96 /* SingleImageVC.swift */,
+				4D6897892476A0A200EB7F96 /* SingleImageVC_initView.swift */,
+				4D68978B2476A0BF00EB7F96 /* SingleImageVC_initAction.swift */,
+				4D68978D2476A19600EB7F96 /* SingleStoryBoard.storyboard */,
+			);
+			path = SingleImage;
 			sourceTree = "<group>";
 		};
 		4D7D25042471A4A100E0FCD1 /* Album */ = {
@@ -340,6 +360,7 @@
 				4D31B1FC247150E50043AF44 /* LaunchScreen.storyboard in Resources */,
 				4D92D7672471C67E00E82BCE /* SingelAlbum.storyboard in Resources */,
 				4D31B1F9247150E50043AF44 /* Assets.xcassets in Resources */,
+				4D68978E2476A19600EB7F96 /* SingleStoryBoard.storyboard in Resources */,
 				4D92D7562471B4CF00E82BCE /* AlbumCell.xib in Resources */,
 				4D92D7702471C83700E82BCE /* SingleAlbumCell.xib in Resources */,
 			);
@@ -368,6 +389,7 @@
 				4D92D7552471B4CF00E82BCE /* AlbumCell.swift in Sources */,
 				4D7D25262471A62400E0FCD1 /* ContactVC_initAction.swift in Sources */,
 				4D31B21224715D4C0043AF44 /* UiColorExtension.swift in Sources */,
+				4D6897882476A08800EB7F96 /* SingleImageVC.swift in Sources */,
 				4D7D25122471A54D00E0FCD1 /* BrowserVC.swift in Sources */,
 				4D92D75A2471B86D00E82BCE /* UiVIew+Extensiton.swift in Sources */,
 				4D92D7582471B63900E82BCE /* AlbumVCCollectionView.swift in Sources */,
@@ -375,8 +397,10 @@
 				4D92D76F2471C83700E82BCE /* SingleAlbumCell.swift in Sources */,
 				4D31B1F4247150DF0043AF44 /* ViewController.swift in Sources */,
 				4D7D250A2471A50C00E0FCD1 /* AlbumVC.swift in Sources */,
+				4D68978C2476A0BF00EB7F96 /* SingleImageVC_initAction.swift in Sources */,
 				4D7D250E2471A52600E0FCD1 /* AlbumVC_initAction.swift in Sources */,
 				4D7D25142471A55D00E0FCD1 /* PasswordVC.swift in Sources */,
+				4D68978A2476A0A200EB7F96 /* SingleImageVC_initView.swift in Sources */,
 				4D7D25182471A58D00E0FCD1 /* SettingsVC_initView.swift in Sources */,
 				4D92D75C2471BDEB00E82BCE /* Album.swift in Sources */,
 				4D92D7692471C7E700E82BCE /* SingleAlbumVC_inittableView.swift in Sources */,

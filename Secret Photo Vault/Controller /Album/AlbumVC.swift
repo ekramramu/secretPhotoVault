@@ -17,6 +17,5 @@ class AlbumVC: UIViewController {
     
     override func viewDidLoad() {
         self.initView()
-
     }
 }

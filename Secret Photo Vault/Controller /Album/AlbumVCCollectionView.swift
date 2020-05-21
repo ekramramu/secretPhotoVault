@@ -22,7 +22,7 @@ extension AlbumVC:UICollectionViewDelegate,UICollectionViewDataSource {
         
         
         let item = albumCollectionView.dequeueReusableCell(withReuseIdentifier: "AlbumCell", for: indexPath) as! AlbumCell
-        item.thumImageView.image = albums[indexPath.row].thumImage
+        item.thumImageView.image = albums[indexPath.row].thumbImage
         item.albumNameLabel.text = albums[indexPath.row].name
         item.numberOfImage.text = "\(albums[indexPath.row].numberOfImage)"
         item.imageBg.addGlobalShadow(color: UIColor().appColor(.Bg)!)
@@ -36,6 +36,8 @@ extension AlbumVC:UICollectionViewDelegate,UICollectionViewDataSource {
         let storyboard = UIStoryboard(name: "SingelAlbum", bundle: nil)
         if let vc = storyboard.instantiateViewController(withIdentifier: "SingleAlbumVC") as? SingleAlbumVC {
             vc.modalPresentationStyle = .fullScreen
+            vc.album = albums[indexPath.row]
+            vc.title = albums[indexPath.row].name
             self.navigationController?.pushViewController(vc, animated: true)
             
         }

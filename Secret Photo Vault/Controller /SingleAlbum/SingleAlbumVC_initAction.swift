@@ -14,19 +14,29 @@ extension SingleAlbumVC:UICollectionViewDelegate,UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 10
+        return album?.images.count ?? 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         
         let item = singelAlbumCollectinView.dequeueReusableCell(withReuseIdentifier: "SingleAlbumCell", for: indexPath) as! SingleAlbumCell
+        item.singleImageThum.image = album?.images[indexPath.row].image  ?? UIImage()
         return item
         
         
     }
     
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        let storyboard = UIStoryboard(name: "SingleStoryBoard", bundle: nil)
+        if let vc = storyboard.instantiateViewController(withIdentifier: "SingleImageVC") as? SingleImageVC {
+            vc.modalPresentationStyle = .fullScreen
+            self.navigationController?.pushViewController(vc, animated: true)
+            
+        }
+        
+    }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
         return CGSize(width: 0, height: 0)

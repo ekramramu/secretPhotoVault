@@ -11,18 +11,39 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SingleAlbumCell" customModule="Secret_Photo_Vault" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <rect key="frame" x="0.0" y="0.0" width="157" height="147"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <rect key="frame" x="0.0" y="0.0" width="157" height="147"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="LEe-aR-UIs">
+                        <rect key="frame" x="0.0" y="0.0" width="157" height="147"/>
+                    </imageView>
+                </subviews>
             </view>
             <color key="backgroundColor" name="Primary"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="LEe-aR-UIs" secondAttribute="trailing" id="Jn1-vJ-XrM"/>
+                <constraint firstAttribute="bottom" secondItem="LEe-aR-UIs" secondAttribute="bottom" id="R2m-cp-ilg"/>
+                <constraint firstItem="LEe-aR-UIs" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="mlW-tk-z51"/>
+                <constraint firstItem="LEe-aR-UIs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="mui-wp-xtx"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
-            <point key="canvasLocation" x="96" y="106"/>
+            <size key="customSize" width="157" height="147"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="8"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="singleImageThum" destination="LEe-aR-UIs" id="gac-xr-3mK"/>
+            </connections>
+            <point key="canvasLocation" x="173.18840579710147" y="111.49553571428571"/>
         </collectionViewCell>
     </objects>
     <resources>
+        <image name="1" width="1730" height="1046"/>
         <namedColor name="Primary">
             <color red="0.96899998188018799" green="0.41999998688697815" blue="0.54100000858306885" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
