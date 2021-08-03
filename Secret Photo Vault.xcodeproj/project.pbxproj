@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23D151ACA3C60C78878F3D3E /* Pods_Secret_Photo_Vault.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43032E34ECEE7E6E4E2CE50A /* Pods_Secret_Photo_Vault.framework */; };
 		4D31B1F0247150DF0043AF44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31B1EF247150DF0043AF44 /* AppDelegate.swift */; };
 		4D31B1F2247150DF0043AF44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31B1F1247150DF0043AF44 /* SceneDelegate.swift */; };
 		4D31B1F4247150DF0043AF44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31B1F3247150DF0043AF44 /* ViewController.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43032E34ECEE7E6E4E2CE50A /* Pods_Secret_Photo_Vault.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Secret_Photo_Vault.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D31B1EC247150DF0043AF44 /* Secret Photo Vault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secret Photo Vault.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D31B1EF247150DF0043AF44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D31B1F1247150DF0043AF44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,8 @@
 		4D92D76D2471C83700E82BCE /* SingleAlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAlbumCell.swift; sourceTree = "<group>"; };
 		4D92D76E2471C83700E82BCE /* SingleAlbumCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleAlbumCell.xib; sourceTree = "<group>"; };
 		4DBA30112471A7D100F9D6D7 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		85D14B2EC714E48BBD840847 /* Pods-Secret Photo Vault.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Secret Photo Vault.debug.xcconfig"; path = "Target Support Files/Pods-Secret Photo Vault/Pods-Secret Photo Vault.debug.xcconfig"; sourceTree = "<group>"; };
+		D636BF60D3271BD4A4FEF17B /* Pods-Secret Photo Vault.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Secret Photo Vault.release.xcconfig"; path = "Target Support Files/Pods-Secret Photo Vault/Pods-Secret Photo Vault.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D151ACA3C60C78878F3D3E /* Pods_Secret_Photo_Vault.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +121,8 @@
 			children = (
 				4D31B1EE247150DF0043AF44 /* Secret Photo Vault */,
 				4D31B1ED247150DF0043AF44 /* Products */,
+				744899888244302A0AB732D6 /* Pods */,
+				BE4A7DB5810DEC049E9C5A84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -298,6 +305,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		744899888244302A0AB732D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85D14B2EC714E48BBD840847 /* Pods-Secret Photo Vault.debug.xcconfig */,
+				D636BF60D3271BD4A4FEF17B /* Pods-Secret Photo Vault.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE4A7DB5810DEC049E9C5A84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43032E34ECEE7E6E4E2CE50A /* Pods_Secret_Photo_Vault.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -305,9 +329,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D31B200247150E50043AF44 /* Build configuration list for PBXNativeTarget "Secret Photo Vault" */;
 			buildPhases = (
+				92D4C638388B272A60F82F0E /* [CP] Check Pods Manifest.lock */,
 				4D31B1E8247150DF0043AF44 /* Sources */,
 				4D31B1E9247150DF0043AF44 /* Frameworks */,
 				4D31B1EA247150DF0043AF44 /* Resources */,
+				1CCE8E0E6D8A53E5954336F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -367,6 +393,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CCE8E0E6D8A53E5954336F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Secret Photo Vault/Pods-Secret Photo Vault-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Secret Photo Vault/Pods-Secret Photo Vault-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Secret Photo Vault/Pods-Secret Photo Vault-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92D4C638388B272A60F82F0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Secret Photo Vault-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4D31B1E8247150DF0043AF44 /* Sources */ = {
@@ -542,11 +610,13 @@
 		};
 		4D31B201247150E50043AF44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85D14B2EC714E48BBD840847 /* Pods-Secret Photo Vault.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54AHL5B4LL;
 				INFOPLIST_FILE = "Secret Photo Vault/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -560,11 +630,13 @@
 		};
 		4D31B202247150E50043AF44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D636BF60D3271BD4A4FEF17B /* Pods-Secret Photo Vault.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 54AHL5B4LL;
 				INFOPLIST_FILE = "Secret Photo Vault/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

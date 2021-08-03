@@ -11,7 +11,7 @@ import UIKit
 class SingleImageVC: UIViewController {
     
     
-    var assetUrl = "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8")
+    //var assetUrl = "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8")
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         self.navigationController?.navigationBar.prefersLargeTitles = false
