@@ -18,10 +18,16 @@
 		4D31B20D2471532A0043AF44 /* MainTabVC_initAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31B20C2471532A0043AF44 /* MainTabVC_initAction.swift */; };
 		4D31B20F24715D100043AF44 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31B20E24715D100043AF44 /* Constant.swift */; };
 		4D31B21224715D4C0043AF44 /* UiColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D31B21124715D4C0043AF44 /* UiColorExtension.swift */; };
+		4D61D30926B9BB22004B5B5B /* AlbumStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D61D30826B9BB22004B5B5B /* AlbumStory.storyboard */; };
 		4D6897882476A08800EB7F96 /* SingleImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6897872476A08800EB7F96 /* SingleImageVC.swift */; };
 		4D68978A2476A0A200EB7F96 /* SingleImageVC_initView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6897892476A0A200EB7F96 /* SingleImageVC_initView.swift */; };
 		4D68978C2476A0BF00EB7F96 /* SingleImageVC_initAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D68978B2476A0BF00EB7F96 /* SingleImageVC_initAction.swift */; };
 		4D68978E2476A19600EB7F96 /* SingleStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D68978D2476A19600EB7F96 /* SingleStoryBoard.storyboard */; };
+		4D6EDD0726BAA7DB006272BA /* BrowserStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6EDD0626BAA7DB006272BA /* BrowserStory.storyboard */; };
+		4D6EDD0A26BAA8F2006272BA /* ContactStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6EDD0926BAA8F2006272BA /* ContactStory.storyboard */; };
+		4D6EDD0D26BAA95B006272BA /* PasswordStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6EDD0C26BAA95B006272BA /* PasswordStory.storyboard */; };
+		4D6EDD1026BAAA10006272BA /* SettingsStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6EDD0F26BAAA10006272BA /* SettingsStory.storyboard */; };
+		4D6EDD1426BAB26F006272BA /* StringConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6EDD1326BAB26F006272BA /* StringConstant.swift */; };
 		4D7D250A2471A50C00E0FCD1 /* AlbumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D25092471A50C00E0FCD1 /* AlbumVC.swift */; };
 		4D7D250C2471A51900E0FCD1 /* AlbumVC_initView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D250B2471A51900E0FCD1 /* AlbumVC_initView.swift */; };
 		4D7D250E2471A52600E0FCD1 /* AlbumVC_initAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7D250D2471A52600E0FCD1 /* AlbumVC_initAction.swift */; };
@@ -67,10 +73,16 @@
 		4D31B20C2471532A0043AF44 /* MainTabVC_initAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabVC_initAction.swift; sourceTree = "<group>"; };
 		4D31B20E24715D100043AF44 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		4D31B21124715D4C0043AF44 /* UiColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiColorExtension.swift; sourceTree = "<group>"; };
+		4D61D30826B9BB22004B5B5B /* AlbumStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlbumStory.storyboard; sourceTree = "<group>"; };
 		4D6897872476A08800EB7F96 /* SingleImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageVC.swift; sourceTree = "<group>"; };
 		4D6897892476A0A200EB7F96 /* SingleImageVC_initView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageVC_initView.swift; sourceTree = "<group>"; };
 		4D68978B2476A0BF00EB7F96 /* SingleImageVC_initAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageVC_initAction.swift; sourceTree = "<group>"; };
 		4D68978D2476A19600EB7F96 /* SingleStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingleStoryBoard.storyboard; sourceTree = "<group>"; };
+		4D6EDD0626BAA7DB006272BA /* BrowserStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BrowserStory.storyboard; sourceTree = "<group>"; };
+		4D6EDD0926BAA8F2006272BA /* ContactStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContactStory.storyboard; sourceTree = "<group>"; };
+		4D6EDD0C26BAA95B006272BA /* PasswordStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PasswordStory.storyboard; sourceTree = "<group>"; };
+		4D6EDD0F26BAAA10006272BA /* SettingsStory.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingsStory.storyboard; sourceTree = "<group>"; };
+		4D6EDD1326BAB26F006272BA /* StringConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstant.swift; sourceTree = "<group>"; };
 		4D7D25092471A50C00E0FCD1 /* AlbumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumVC.swift; sourceTree = "<group>"; };
 		4D7D250B2471A51900E0FCD1 /* AlbumVC_initView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumVC_initView.swift; sourceTree = "<group>"; };
 		4D7D250D2471A52600E0FCD1 /* AlbumVC_initAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumVC_initAction.swift; sourceTree = "<group>"; };
@@ -137,6 +149,7 @@
 		4D31B1EE247150DF0043AF44 /* Secret Photo Vault */ = {
 			isa = PBXGroup;
 			children = (
+				4D61D30726B9BB0B004B5B5B /* Storyborad */,
 				4D31B21024715D170043AF44 /* Constant */,
 				4D31B206247151F50043AF44 /* CustomThings */,
 				4D31B205247151E80043AF44 /* Model */,
@@ -207,8 +220,22 @@
 			isa = PBXGroup;
 			children = (
 				4D31B20E24715D100043AF44 /* Constant.swift */,
+				4D6EDD1326BAB26F006272BA /* StringConstant.swift */,
 			);
 			path = Constant;
+			sourceTree = "<group>";
+		};
+		4D61D30726B9BB0B004B5B5B /* Storyborad */ = {
+			isa = PBXGroup;
+			children = (
+				4D61D30826B9BB22004B5B5B /* AlbumStory.storyboard */,
+				4D6EDD0926BAA8F2006272BA /* ContactStory.storyboard */,
+				4D6EDD0626BAA7DB006272BA /* BrowserStory.storyboard */,
+				4D6EDD0C26BAA95B006272BA /* PasswordStory.storyboard */,
+				4D6EDD0F26BAAA10006272BA /* SettingsStory.storyboard */,
+				4D92D7662471C67E00E82BCE /* SingelAlbum.storyboard */,
+			);
+			path = Storyborad;
 			sourceTree = "<group>";
 		};
 		4D6897862476A03A00EB7F96 /* SingleImage */ = {
@@ -290,7 +317,6 @@
 				4D92D7602471C62B00E82BCE /* SingleAlbumVC.swift */,
 				4D92D7622471C63600E82BCE /* SingleAlbumVC_initView.swift */,
 				4D92D7642471C64400E82BCE /* SingleAlbumVC_initAction.swift */,
-				4D92D7662471C67E00E82BCE /* SingelAlbum.storyboard */,
 				4D92D7682471C7E700E82BCE /* SingleAlbumVC_inittableView.swift */,
 			);
 			path = SingleAlbum;
@@ -383,11 +409,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DBA30122471A7D100F9D6D7 /* Main.storyboard in Resources */,
+				4D6EDD0A26BAA8F2006272BA /* ContactStory.storyboard in Resources */,
+				4D6EDD0D26BAA95B006272BA /* PasswordStory.storyboard in Resources */,
 				4D31B1FC247150E50043AF44 /* LaunchScreen.storyboard in Resources */,
+				4D6EDD0726BAA7DB006272BA /* BrowserStory.storyboard in Resources */,
+				4D6EDD1026BAAA10006272BA /* SettingsStory.storyboard in Resources */,
 				4D92D7672471C67E00E82BCE /* SingelAlbum.storyboard in Resources */,
 				4D31B1F9247150E50043AF44 /* Assets.xcassets in Resources */,
 				4D68978E2476A19600EB7F96 /* SingleStoryBoard.storyboard in Resources */,
 				4D92D7562471B4CF00E82BCE /* AlbumCell.xib in Resources */,
+				4D61D30926B9BB22004B5B5B /* AlbumStory.storyboard in Resources */,
 				4D92D7702471C83700E82BCE /* SingleAlbumCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +476,7 @@
 				4D7D250C2471A51900E0FCD1 /* AlbumVC_initView.swift in Sources */,
 				4D7D25202471A60200E0FCD1 /* BrowserVC_initView.swift in Sources */,
 				4D7D251E2471A5EB00E0FCD1 /* PasswordVC_intAction.swift in Sources */,
+				4D6EDD1426BAB26F006272BA /* StringConstant.swift in Sources */,
 				4D92D75E2471C27B00E82BCE /* UiCollectionCell+Extention.swift in Sources */,
 				4D92D7632471C63600E82BCE /* SingleAlbumVC_initView.swift in Sources */,
 				4D7D251A2471A5AF00E0FCD1 /* SettingsVC_initAction.swift in Sources */,

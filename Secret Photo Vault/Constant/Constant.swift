@@ -36,3 +36,16 @@ extension UIColor {
    }
 }
 
+
+
+struct StoryboradName {
+
+}
+
+struct ViewControllerName {
+    
+}
+
+struct CellId {
+
+}
